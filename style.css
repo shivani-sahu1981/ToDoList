@@ -15,16 +15,23 @@ body{
 .container{
     width: 400px;
     height: 200px;
-    background-color: aqua;
+    background-color: rgb(63, 57, 57);
     justify-items: center;
     align-items: center;
     padding-top: 50px;
     border-radius: 20px;
 }
 
+.container h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .newtask{
     display: block;
     justify-content: space-between;
+    align-items: center;
+    height: 100vh;
 }
 
 .inp{
@@ -43,4 +50,5 @@ body{
     border-radius: 20px;
     border: none;
     outline: none;
+    color: black;
 }
