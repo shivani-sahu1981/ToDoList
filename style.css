@@ -19,6 +19,12 @@ body{
     justify-items: center;
     align-items: center;
     padding-top: 50px;
+    border-radius: 20px;
+}
+
+.newtask{
+    display: block;
+    justify-content: space-between;
 }
 
 .inp{
@@ -28,4 +34,13 @@ body{
     border: none;
     outline: none;
     color: black;
+    text-align: center;
+}
+
+#add{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
 }
