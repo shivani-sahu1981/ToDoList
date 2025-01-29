@@ -34,7 +34,7 @@ body{
     height: 100vh;
 }
 
-.inp{
+#inp{
     width: 250px;
     height: 35px;
     border-radius: 20px;
